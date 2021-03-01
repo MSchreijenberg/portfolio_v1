@@ -100,7 +100,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #666777;
 }
 
 ul.skills {
@@ -111,14 +111,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: rgb(228,198,132);
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background:rgb(137,185,214);
 }
 
 footer {
