@@ -90,17 +90,25 @@ header .profile-image:hover {
   color: rgb(255, 255, 255);
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
-  max-width: 500px;
-  text-align: left;
+  margin: 10px;
+  padding: 20px 20px 20px;
+  max-width: 600px;
+  text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  float:left;
+  
 }
 .card:hover {
   border-color: #666777;
+  }
+
+ .drawing-image{
+  max-width: 100%;
+  margin: 1px;
+
 }
 
 ul.skills {
@@ -125,6 +133,8 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+ 
+
 }
 
 footer .copyright {
