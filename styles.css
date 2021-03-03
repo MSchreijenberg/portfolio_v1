@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #f7f5f0;
+  height: 100%;
 }
 /* Link Styles */
 
@@ -92,7 +93,7 @@ header .profile-image:hover {
 .card {
   margin: 10px;
   padding: 20px 20px 20px;
-  max-width: 600px;
+  max-width: 575px;
   text-align: center;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -130,12 +131,11 @@ ul.skills {
 }
 
 footer {
-  width: 100%;
+  width: 300px;
+  height: 60px;
   min-height: 30px;
   padding: 20px 0 40px 20px;
- 
-
-}
+ }
 
 footer .copyright {
   top: -8px;
